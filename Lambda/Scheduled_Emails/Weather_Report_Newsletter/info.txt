@@ -1,0 +1,11 @@
+API call to request current weather and forecast data:
+https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={API key}
+
+API call to request historical data:
+https://api.openweathermap.org/data/3.0/onecall/timemachine?lat={lat}&lon={lon}&dt={time}&appid={API key}
+
+API call to request history daily aggregation data:
+https://api.openweathermap.org/data/3.0/onecall/day_summary?lat={lat}&lon={lon}&date={date}&appid={API key}
+
+Gecoding API:
+http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}
